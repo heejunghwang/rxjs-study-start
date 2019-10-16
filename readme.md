@@ -17,4 +17,6 @@ RXJS 스터디입니다. RXJS 5버전 기준으로 작성되었습니다.
 - Hot Observables : 항상 YouTube의 실시간 스트림과 같은 새로운 값으로 업데이트됩니다. 구독하면 가장 최근 값으로 시작하여 향후 변경 사항 만 볼 수 있습니다.
 
 ## Reference
-https://rxjs-dev.firebaseapp.com/guide/overview
+- https://angularfirebase.com/lessons/rxjs-quickstart-with-20-examples/
+
+- https://rxjs-dev.firebaseapp.com/guide/overview

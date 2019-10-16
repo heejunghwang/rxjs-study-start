@@ -16,7 +16,7 @@ const observable = Rx.Observable.create(observer => {
 observable.subscribe(val => console.log(val));
 
 // 2. [fromEvent] document 객체를 클릭했을때 클릭이벤트를 콘솔로그를 찍어보기
-const clicks = Rx.Observable.fromEvent(document, 'click'); //TODO : fromEvent :
+const clicks = Rx.Observable.fromEvent(document, 'click'); //TODO : fromEvent 함수 설명
 
 clicks.subscribe(clickEvent => console.log(clickEvent));
 
@@ -27,7 +27,7 @@ const promise = new Promise((resolve, reject) => {
     }, 1000)
 });
 
-const obsvPromise = Rx.Observable.fromPromise(promise); //TODO : fromPromise
+const obsvPromise = Rx.Observable.fromPromise(promise); //TODO : fromPromise 함수 설명
 
 obsvPromise.subscribe(result => console.log(result));
 
